@@ -73,5 +73,15 @@ class Pelicula {
     }
     
   }
+
+  String getBackgroundImg(){
+    if(posterPath == null){
+      return 'https://us.123rf.com/450wm/pavelstasevich/pavelstasevich1811/pavelstasevich181101065/112815953-stock-vector-no-image-available-icon-flat-vector.jpg?ver=6';
+    }
+    else{
+      return 'https://image.tmdb.org/t/p/w500/$backdropPath';
+    }
+    
+  }
 }
 
